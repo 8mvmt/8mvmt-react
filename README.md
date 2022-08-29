@@ -1,13 +1,13 @@
 # General
 
-This project is the front end of the Carbonable project
+This project is the front end of the 8mvmt project
 
 # Installation
 Clone the repository
 
 ````
-git clone https://github.com/Carbonable/carbonable-react.git
-cd carbonable-react
+git clone https://github.com/8mvmt/8mvmt-react.git
+cd 8mvmt-react
 git fetch
 ````
 
