@@ -1,20 +1,6 @@
 import { useStarknet } from "@starknet-react/core";
 import { Navig, Homeb1, Homeb2 } from "../components/home";
-import {
-  MaxBuyPerTx,
-  MaxSupplyForMint,
-  PaymentTokenAddress,
-  ProjectNFTAddress,
-  PublicSaleOpen,
-  ReservedSupplyForMint,
-  UnitPrice,
-  WhitelistedSaleOpen,
-  WhitelistMerkleRoot,
-} from "../components/NFT";
-import { ConnectButton, DisconnectButton } from "../components/Wallet";
-import { MINTER_CONTRACT_ADDRESS } from "../contracts/addresses";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { config } from "process";
 import { useState, useEffect } from "react";
 import { useTransition, animated } from "react-spring";
 
