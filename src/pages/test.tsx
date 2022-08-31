@@ -203,9 +203,9 @@ function TestPage() {
           speed={0.4}
           className="grid w-full  z-50  justify-content-center content-center place-content-center p-2"
         >
-          <div className=" max-w-screen-xl h-auto grid grid-cols-12 grid-rows-6 w-full  justify-center  content-center  place-self-center ">
+          <div className=" max-w-screen-xl h-auto grid grid-cols-12 grid-rows-6 w-full  justify-center  content-center  place-content-center ">
             
-            <div className="w-full grid grid-cols-12 grid-row-6 row-span-3 row-end-5 col-span-10 col-end-11 backdrop-blur-sm h-80 px-8   content-center justify-center  text-white text-center">
+            <div className="w-full grid grid-cols-12 grid-row-6 row-span-3 row-end-5 col-span-10 col-end-11 backdrop-blur-sm h-80 px-8   content-center justify-center place-content-center  text-white text-center">
                 <h1 className="col-end-13 col-span-1 row-span-1 row-start-1  grid  justify-center content-center text-7xl font-extralight text-white">
                 +
                 </h1>
