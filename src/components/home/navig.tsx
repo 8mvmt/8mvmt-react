@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 class Navig extends Component {
     render() {
         return (
-            <div className='w-full col-span-12 bg-white  bg-opacity-20 backdrop-blur-sm h-18 mt-10 px-8 rounded-full max-w-screen-xl'>
+            <div className='invisible lg:visible w-full col-span-12 bg-white  bg-opacity-20 backdrop-blur-sm h-18 mt-10 px-8 rounded-full max-w-screen-xl'>
                 <nav className='grid  h-16   grid-flow-col ' > 
                 
                     <div className='grid content-center'>
