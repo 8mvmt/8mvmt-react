@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 
 class Homeb1 extends Component {
     render() {
@@ -11,12 +12,14 @@ class Homeb1 extends Component {
                    <div className='row-span-3 grid justify-center content-center text-center text-6xl font-extrabold text-white'><h1>WE BUILD TECH TO MAKE ART MORE ACCESSIBLE</h1> </div>
                    <div className='row-span-3 grid '>
                         <div className='w-full grid grid-cols-2 place-content-center  content-center'>
+                            
                             <button className='bg-gray-200 rounded-full h-16 w-40 lg:w-60  mx-2 bg-gradient-to-r justify-self-end hover:text-white hover:from-pink-500 hover:to-yellow-500'>
-                                Neat! I join early
+                            <NavLink to="/testnet"> Neat! Try tesnet </NavLink>
                             </button>
-                            <button className='bg-gray-200 rounded-full h-16 w-40 lg:w-60 mx-2 bg-gradient-to-r hover:text-white hover:from-pink-500 hover:to-yellow-500'>
-                                    join whitelist
-                            </button>
+                            
+                            <a href="https://bit.ly/3L4jRud"  target="_blank"><button className='bg-gray-200 rounded-full h-16 w-40 lg:w-60 mx-2 bg-gradient-to-r hover:text-white hover:from-pink-500 hover:to-yellow-500'>
+                                read the Litepaper
+                            </button> </a>
                             
                         </div>
                         

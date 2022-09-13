@@ -7,12 +7,12 @@ function Footer()  {
         from: { rotateZ: 0 },
         to: { rotateZ: 90 },})
         return (
-            <div className='    grid lg:grid-cols-12 grid-rows-6 justify-items-center  content-center z-10 '>
-                    <div className=" bg-gray-200 my-20 lg:col-span-12 w-full grid  gap-8 grid-cols-12 grid-flow-row row-span-4      content-center justify-center place-content-center  text-black text-center">
-                        <p className=" col-span-12 px-20 text-5xl font-extrabold uppercase"> LET’S RAISE <b className=' bg-gradient-to-r from-pink-500 to-yellow-500 px-2 '> MOVEMENT</b>  TO WHERE IT DESSERVE
-                        </p>
-                        <p className="col-span-12 px-20  text-2xl font-regular ">Join the community</p>
-                        <button className=" col-span-6 col-start-4 lg:col-span-2 lg:col-start-6 h-10 rounded-full border-yellow-400 border-2 text-sm  "> COME ON STAGE</button>
+            <div className='    grid w-screen  grid-flow-row z-10 '>
+                    <div className=" bg-gray-200 my-20  w-screen grid  grid-flow-row  h-auto py-20     content-center justify-center place-content-center  text-black text-center">
+                        <p className="  px-20 text-5xl font-extrabold uppercase"> LET’S RAISE <b className=' bg-gradient-to-r from-pink-500 to-yellow-500 px-2 '> MOVEMENT</b>  TO WHERE IT DESSERVE</p>
+                        <p className=" px-20  text-2xl font-regular ">Join the community</p>
+                        <br />
+                        <button className=" w-60 h-10 rounded-full border-yellow-400 border-2 text-sm place-self-center ">COME ON STAGE</button>
                     </div>
                     <div className=" w-full col-span-12 row-span-6  flex flex-wrap justify-center content-center self-center justify-self-center text-white" >
                         <div className=" flex flex-col sm:flex-row w-4/5 sm:justify-between sm:content-around  " >
